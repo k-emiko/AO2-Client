@@ -348,7 +348,7 @@ Courtroom::Courtroom(AOApplication *p_ao_app) : QMainWindow()
           SLOT(on_custom_objection_clicked()));
   connect(ui_custom_objection,
           SIGNAL(customContextMenuRequested(const QPoint &)), this,
-          SLOT(ShowContextMenu(const QPoint &)));
+          SLOT(hehe(const QPoint &)));
 
   connect(ui_realization, SIGNAL(clicked()), this,
           SLOT(on_realization_clicked()));
